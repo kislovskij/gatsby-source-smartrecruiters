@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-source-smartrecruiters",
+  "version": "2.0.4",
+  "description": "Gatsby source plugin for loading job posts from smartrecruiters",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore apiTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kislovskij/gatsby-source-smartrecruiters"
+  },
+  "bugs": {
+    "url": "https://github.com/kislovskij/gatsby-source-smartrecruiters/issues"
+  },
+  "contributors": [
+    "Viktor Kislovskij <kislovskij@gmail.com>"
+  ],
+  "homepage": "https://github.com/kislovskij/gatsby-source-smartrecruiters",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "smartrecruiters"
+  ],
+  "author": "Viktor Kislovskij <kislovskij@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "gatsby-node-helpers": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
