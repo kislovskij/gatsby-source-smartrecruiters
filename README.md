@@ -1,6 +1,6 @@
 # gatsby-source-smartrecruiters
 
-> Loads job openings from greenhouse.io into Gatsby.js. Based on [gatsby-source-greenhouse](https://github.com/tumblbug/gatsby-source-greenhouse).
+> Loads job openings from smartrecruiters.com into Gatsby.js. Based on [gatsby-source-greenhouse](https://github.com/tumblbug/gatsby-source-greenhouse).
 
 ## Installation
 
@@ -26,7 +26,7 @@ Edit `gatsby-config.js` to use the plugin:
     {
       resolve: `gatsby-source-smartrecruiters`,
       options: {
-        site: `{API_TOKEN}`,
+        companyIdentifier: `{COMPANY_IDENTIFIER}`,
       },
     },
   ]
