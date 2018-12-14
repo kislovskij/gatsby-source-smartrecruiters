@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-smartrecruiters",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Gatsby source plugin for loading job posts from smartrecruiters",
   "main": "gatsby-node.js",
   "scripts": {
