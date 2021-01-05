@@ -26,7 +26,7 @@
   "author": "Viktor Kislovskij <kislovskij@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "gatsby-node-helpers": "^0.3.0"
   },
   "devDependencies": {
